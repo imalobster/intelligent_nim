@@ -20,7 +20,7 @@ class Agent:
                     return i, reduceBy
 
 
-    def FindXOR(self, piles):
+    def findXOR(self, piles):
         # Remove zeros from piles list
         tempList = [pile for pile in piles if pile > 0]
 
